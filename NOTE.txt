@@ -1,0 +1,25 @@
+decision tree
+- seg only
+ - dimension does not matter 
+
+svm
+- seg only
+ - dimension: 500 -> 3000 : 0.6 -> 0.68
+
+ - first trial: 'sample_fin.csv': 0.702
+
+ (train[1000:])
+ -- D=500, SVC(degree=5) : 0.678
+ -- D=500, SVC(degree=7) : 0.678
+ -- D=500, SVC(degree=3) : 0.678
+ -- D=500, SVC(degree=10): 0.678
+ -- D=2000,    degree=10 : 0.692
+ -- D=2000,    degree=3  : 0.692
+ -- D=5000,           3  : 0.654
+
+knn
+- seg only
+ - ~ 0.5
+
+- stop word
+ - generally worse
